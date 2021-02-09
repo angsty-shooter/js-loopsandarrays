@@ -19,6 +19,7 @@ function rearranger(arr) {
 // output: 42
 
 function largestNum(arr) {
+    return Math.max.apply(null, arr)
 }
 
 
