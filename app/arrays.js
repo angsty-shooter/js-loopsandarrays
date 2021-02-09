@@ -34,11 +34,9 @@ function largestNum(arr) {
 function elemsTimesLength(arr) {
     let alt = []
     for (let i = 0; i <= arr.length; i++){
-        arr.length * 
-        alt.push()
+        alt.push(arr.length * arr[i])
         
     }
-    console.log(alt)
     return alt
 }
 // ------------------------------------------
