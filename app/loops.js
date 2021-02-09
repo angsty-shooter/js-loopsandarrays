@@ -38,5 +38,13 @@ function rangeTotal(n1, n2) {
 // output: 2
 
 function rangeDivisor(start, end, divisor) {
-
+    let sum = 0
+    for(let i = start; i <= end; i++){
+        i % divisor
+        if(i % divisor == 0){
+            sum += 1
+            console.log(sum)
+        }
+    }
+    return sum
 }
