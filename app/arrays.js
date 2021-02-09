@@ -32,9 +32,15 @@ function largestNum(arr) {
 // output: [16, 8, 4, 28]
 
 function elemsTimesLength(arr) {
+    let alt = []
+    for (let i = 0; i <= arr.length; i++){
+        arr.length * 
+        alt.push()
+        
+    }
+    console.log(alt)
+    return alt
 }
-
-
 // ------------------------------------------
 
 
