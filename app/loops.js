@@ -43,7 +43,6 @@ function rangeDivisor(start, end, divisor) {
         i % divisor
         if(i % divisor == 0){
             sum += 1
-            console.log(sum)
         }
     }
     return sum

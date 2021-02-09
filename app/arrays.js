@@ -16,6 +16,7 @@ function rearranger(arr) {
 // output: 42
 
 function largestNum(arr) {
+    console.log(arr)
 }
 
 
