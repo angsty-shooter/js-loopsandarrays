@@ -70,8 +70,13 @@ let flights = [{
 
 
 function flightCost(destination, firstClass) {
-    //***hint: use the find method***
-
+    let flight = flights.find(flight => flight.to == destination.toUpperCase())
+    if (firstClass){
+        return flight.prices.firstClass
+    }
+    else{
+        return flight.prices.standard
+    }   
 }
 
 
